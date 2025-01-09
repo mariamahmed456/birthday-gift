@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+body{
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+flex-direction: column;
+background-color: #000000;
+color: rgb(205, 213, 248);
+}
+
+#no-cont{
+    font-size: 20rem;
+    text-align: center;
+    padding-top: 50px;
+    font-style: oblique;
+}
+#no{
+    opacity: 1;
+    transition: opacity 5s ease;
+}
+
+#action-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20%;
+    color: rgb(174, 174, 210);
+    background-color: rgb(38, 38, 71);
+    margin-top: 80px;
+    margin-left:50%;
+}
