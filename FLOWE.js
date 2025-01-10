@@ -20,5 +20,5 @@ numberElement.addEventListener('click', () => {
 
 
 actionButton.addEventListener('click', () => {
-    window.location.href = 'floo.html'; 
+    window.location.href = 'flloo.html'; 
 });
