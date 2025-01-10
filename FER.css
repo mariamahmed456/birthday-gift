@@ -72,38 +72,4 @@ body{
     z-index: 10;
     --fl-speed: 0.8s;
 
-    &--1{
-        animation: moving-flower-1 4s linear infinite;
-        .flower__line {
-            $delay: 0.3s;
-
-            height: 70vmin;
-            animation-delay: $delay;
-        &__leaf{
-            &--1{
-                animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
-            }
-            &--2{
-                animation: blooming-leaf-right var(--fl-speed) 1.4s backwards;
-            }
-            
-            &--3{
-                animation: blooming-leaf-right var(--fl-speed) 1.2s backwards;
-            }
-            &--4{
-                animation: blooming-leaf-right var(--fl-speed) 1s backwards;
-            }
-            &--5{
-                animation: blooming-leaf-right var(--fl-speed) 1.8s backwards;
-            }
-            &--6{
-                animation: blooming-leaf-right var(--fl-speed) 2s backwards;
-            }
-        
-        }
-    }
-}
-        
-
-    
-
+   
